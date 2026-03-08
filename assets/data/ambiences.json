@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Forest Focus",
+    "tag": "Focus",
+    "duration": 180,
+    "image": "forest.jpg",
+    "audio": "forest.mp3",
+    "description": "Gentle forest ambience to help you focus."
+  },
+  {
+    "title": "Deep Calm",
+    "tag": "Calm",
+    "duration": 180,
+    "image": "calm.jpg",
+    "audio": "calm.mp3",
+    "description": "Soft calm sounds for relaxation."
+  },
+  {
+    "title": "Rain Sleep",
+    "tag": "Sleep",
+    "duration": 240,
+    "image": "rain.jpg",
+    "audio": "rain.mp3",
+    "description": "Rain ambience for peaceful sleep."
+  }
+]
