@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            /// Search Bar
+          
             TextField(
               controller: searchController,
               decoration: InputDecoration(
@@ -52,7 +52,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 12),
 
-            /// Filter Chips
             SizedBox(
               height: 40,
               child: ListView.separated(
@@ -77,7 +76,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 16),
 
-            /// Grid
             Expanded(
               child: provider.isLoading
                   ? const Center(child: CircularProgressIndicator())

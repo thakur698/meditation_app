@@ -19,7 +19,6 @@ class _PlayerScreenState extends State<PlayerScreen> {
   Timer? timer;
   int elapsedSeconds = 0;
 
-  /// START SESSION
   void startSession() {
     final playerProvider = context.read<PlayerProvider>();
 
@@ -36,7 +35,6 @@ class _PlayerScreenState extends State<PlayerScreen> {
     });
   }
 
-  /// END SESSION
   void endSession() {
     timer?.cancel();
 
@@ -48,7 +46,6 @@ class _PlayerScreenState extends State<PlayerScreen> {
     );
   }
 
-  /// FORMAT TIMER
   String formatTime(int seconds) {
     final minutes = seconds ~/ 60;
     final secs = seconds % 60;
@@ -75,7 +72,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            /// IMAGE
+          
             ClipRRect(
               borderRadius: BorderRadius.circular(16),
               child: Image.asset(
@@ -88,7 +85,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
 
             const SizedBox(height: 40),
 
-            /// TIMER CIRCLE
+         
             SizedBox(
               height: 220,
               width: 220,
@@ -114,7 +111,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
 
             const SizedBox(height: 40),
 
-            /// BUTTONS
+           
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

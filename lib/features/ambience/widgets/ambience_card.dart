@@ -17,7 +17,7 @@ class AmbienceCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            /// IMAGE
+           
             ClipRRect(
               borderRadius: const BorderRadius.vertical(
                 top: Radius.circular(12),
@@ -30,7 +30,7 @@ class AmbienceCard extends StatelessWidget {
               ),
             ),
 
-            /// TEXT
+            
             Padding(
               padding: const EdgeInsets.all(10),
               child: Column(

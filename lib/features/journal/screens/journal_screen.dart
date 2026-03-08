@@ -34,7 +34,7 @@ class _JournalScreenState extends State<JournalScreen> {
 
             const SizedBox(height: 20),
 
-            /// TEXT FIELD
+            
             TextField(
               controller: controller,
               maxLines: 5,
@@ -46,7 +46,7 @@ class _JournalScreenState extends State<JournalScreen> {
 
             const SizedBox(height: 20),
 
-            /// MOODS
+           
             const Text("Mood"),
 
             const SizedBox(height: 10),
@@ -73,7 +73,6 @@ class _JournalScreenState extends State<JournalScreen> {
 
             const Spacer(),
 
-            /// SAVE BUTTON
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(

@@ -18,7 +18,7 @@ class AmbienceDetailsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            /// TITLE
+          
             Text(
               ambience.title,
               style: const TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
@@ -26,12 +26,10 @@ class AmbienceDetailsScreen extends StatelessWidget {
 
             const SizedBox(height: 10),
 
-            /// TAG
             Chip(label: Text(ambience.tag)),
 
             const SizedBox(height: 10),
 
-            /// DURATION
             Text(
               "Duration: ${ambience.duration ~/ 60} minutes",
               style: const TextStyle(fontSize: 16),
@@ -39,12 +37,10 @@ class AmbienceDetailsScreen extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            /// DESCRIPTION
             Text(ambience.description, style: const TextStyle(fontSize: 16)),
 
             const Spacer(),
 
-            /// START SESSION BUTTON
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(

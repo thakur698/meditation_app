@@ -11,10 +11,10 @@ import 'features/ambience/screens/home_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  /// Initialize Hive
+
   await Hive.initFlutter();
 
-  /// Open journal storage box
+  
   await Hive.openBox('journal');
 
   runApp(const MyApp());
